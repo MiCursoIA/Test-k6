@@ -19,7 +19,7 @@ const BASE_URL = 'https://cursotesting.com.ar:3000';
 
 export default function () {
   const payload = JSON.stringify({
-    username: 'institutoweb',
+    username: 'institutoweb99',
     password: 'cursoperformance',
   });
 
