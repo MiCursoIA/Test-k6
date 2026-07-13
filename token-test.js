@@ -32,7 +32,7 @@ export default function () {
   const res = http.post(`${BASE_URL}/token`, payload, params);
 
   const ok = check(res, {
-    'status is 200': (r) => r.status === 200,
+    'status is 205': (r) => r.status === 205,
     'token is present': (r) => JSON.parse(r.body).token !== undefined,
   });
 
